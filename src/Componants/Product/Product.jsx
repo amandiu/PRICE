@@ -14,7 +14,7 @@ const Product = ({ product }) => {
      <p className="text-lg p-2 font-semibold">
         {price} <span className="text-xl font-extrabold">৳</span>
       </p>
-      <button className="shadow-xl rounded-lg p-2 bg-gradient-to-b from-blue-500 via-green-400 to-purple-500 bg-clip-text text-transparent text-xl">
+      <button className="shadow-xl rounded-lg p-2 bg-gradient-to-b from-blue-100 via-green-200 to-purple-100 bg-clip-text text-transparent text-xl">
           <u>Buy Now</u>
         </button>
      </div>
