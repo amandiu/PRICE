@@ -14,7 +14,9 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="flex pl-16 pr-16 pb-6 mx-auto justify-between items-center font-bold text-slate-200 text-lg">
+    <nav
+      className="flex shadow-white pl-16 bg-[#1d232a] pr-16 pb-2  mx-auto justify-between items-center font-bold text-slate-200 text-lg"
+    >
       <div
         className="mr-5 md:hidden text-3xl"
         onClick={() => {
@@ -29,8 +31,8 @@ const Navbar = () => {
       </div>
       <div className="text-3xl font-bold text-red-400">PRICE-OPTIONS</div>
       <ul
-        className={`md:flex  px-5 py-3  justify-center absolute md:static left-12 duration-1000
-        ${open ? "top-12" : "-top-96"}
+        className={`md:flex top-[70px] px-5 py-3 justify-center absolute md:static left-12 duration-1000
+        ${open ? "bottom-2":"-top-96"}
         `}
       >
         {routes.map((route) => (
